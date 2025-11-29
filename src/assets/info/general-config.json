@@ -1,19 +1,19 @@
 {
-  "initialSlug": "001",
+  "initialSlug": "006-2",
   "planetPath": "/planet.webm",
   "animate": true,
   "defaultTitle": "MSMC |",
   "icon": "/faction-logos/msmc.svg",
   "header": {
-    "planet": "Heiligtum-6 'Deep Blue'",
-    "year": "5017u",
-    "system": "Heiligtum",
-    "gate": "Rào Cỏ",
-    "ring": "Annamite",
-    "headerTitle": "Mirrorsmoke",
-    "headerSubtitle": "Mercenary Company",
-    "subheaderTitle": "Contract Work",
-    "subheaderSubtitle": "Sierra-Whiskey-Alpha-Golf"
+    "planet": "ABOARD THE RLC NAUTILUS",
+    "year": "504 CE",
+    "system": "HESPERIAN SYSTEM",
+    "gate": "-",
+    "ring": "BEYOND THE ANNAMITE LINE",
+    "headerTitle": "ROYAL",
+    "headerSubtitle": "LANCER COPRORATION",
+    "subheaderTitle": "AN ATLAS SUBSIDIARY",
+    "subheaderSubtitle": "RLC"
   },
   "pilotSpecialInfo": {}
 }
