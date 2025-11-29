@@ -140,7 +140,7 @@ import longrimData from 'lancer-longrim-data'
 import wallflowerData from '@/assets/LCPs/wallflower-data-2.0.5'
 import dustgraveData from '@/assets/LCPs/dustgrave-data-1.4.0'
 import legionnaireData from '@/assets/LCPs/legionnaire_v1.0.0'
-import owsData from '@/assets/LCPs/ows-data-1.0.0'
+import winterscarData from '@/assets/LCPs/ows-data-1.0.0'
 import solsticerainData from '@/assets/LCPs/solstice-rain-1.0.0'
 import ssmrData from '@/assets/LCPs/ssmr-data-1.7.0'
 
