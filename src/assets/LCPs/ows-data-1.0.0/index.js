@@ -5,7 +5,6 @@ import s from "./systems.json"
 import w from "./weapons.json"
 
 
-
 const data = {
   frames: f,
   mods: m,
