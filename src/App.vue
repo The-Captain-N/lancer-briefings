@@ -50,7 +50,7 @@ export default {
 		};
 	},
 	created() {
-		this.setTitleFavicon(Config.defaultTitle + " MISSION BRIEFING", Config.icon);
+		this.setTitleFavicon(Config.defaultTitle + " MISSION ASSIGNMENTS", Config.icon);
 		this.importMissions(import.meta.glob("@/assets/missions/*.md", { query: '?raw', import: 'default' }));
 		this.importEvents(import.meta.glob("@/assets/events/*.md", { query: '?raw', import: 'default' }));
 		this.importClocks(import.meta.glob("@/assets/clocks/*.json"));
