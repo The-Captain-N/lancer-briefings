@@ -146,6 +146,12 @@ header {
 	margin-left: 15px;
 }
 
+.logo_header {
+	width: 90px;
+	height: 80px;
+	margin-left: 15px;
+}
+
 .title-row {
 	width: 100%;
 }

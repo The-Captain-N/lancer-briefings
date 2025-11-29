@@ -1,7 +1,7 @@
 <template>
 	<header>
 		<div class="title clipped-x-large-forward">
-			<img class="logo" src="/faction-logos/atlas_black.svg" />
+			<img class="logo_header" src="/faction-logos/atlas_black.svg" />
 			<div class="title-container">
 				<div id="title-first-line" class="title-row">
 					<span id="title-header">{{ header.headerTitle }}</span>
