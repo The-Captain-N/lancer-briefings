@@ -9,8 +9,8 @@
 /*-------------------------------------*/
 :root {
 	/* Primary Colors */
-	--primary-color: #7dbbbb;
-	--secondary-color: #161c1dcc;
+	--primary-color: #bf0041;
+	--secondary-color: #171d1ecc;
 	--highlight-hover: rgba(255, 255, 255, 0.3);
 	--highlight-active: rgba(255, 255, 255, 0.1);
 	/* Primary Text */
@@ -22,6 +22,8 @@
 	--text-mission-title: rgba(255, 255, 255, 0.67);
 	--text-mission-status: rgba(255, 255, 255, 0.87);
 	--mission-start: rgba(109, 109, 109, 1);
+	--mission-available: rgba(0, 105, 146, 1);
+	--mission-progress: rgba(63, 195, 128, 1);
 	--mission-partial: rgba(88, 34, 102, 1);
 	--mission-success: #226662;
 	--mission-failure: rgba(176, 45, 45, 1);
@@ -562,6 +564,14 @@ section .section-header h1 {
 	width: 32px;
 	height: 32px;
 	padding-left: 0.5em;
+}
+
+.mission .available {
+	background-color: var(--mission-available);
+}
+
+.mission .in-progress {
+	background-color: var(--mission-progress);
 }
 
 .mission .start {
