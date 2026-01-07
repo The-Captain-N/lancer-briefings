@@ -1,4 +1,4 @@
-<template>
+	<template>
   <div class="grid-item pilot-identity" style="color:white!important">
     <div class="header">
       <div class="col grow-max">
@@ -143,6 +143,7 @@ import legionnaireData from '@/assets/LCPs/legionnaire_v1.0.0'
 import winterscarData from '@/assets/LCPs/ows-data-1.0.0'
 import solsticerainData from '@/assets/LCPs/solstice-rain-1.0.0'
 import ssmrData from '@/assets/LCPs/ssmr-data-1.7.0'
+import LancerEnhancedCombatAltFramesData from '@/assets/LCPs/Lancer Enhanced Combat Alt Frames 1.1'
 
 /*Append the datasets within computed if your LCP has new items.
 EX:
@@ -189,16 +190,16 @@ export default {
       return `/mechs/${this.pilot.callsign.toUpperCase()}.webp`
     },
     pilotGear() {
-      return [...lancerData.pilot_gear, ...dustgraveData.pilot_gear]
+      return [...lancerData.pilot_gear, ...dustgraveData.pilot_gear, ...legionnaireData.pilot_gear, ...ssmrData.pilot_gear]
     },
     mechWeapons() {
-      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...dustgraveData.weapons]
+      return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...dustgraveData.weapons, ...LancerEnhancedCombatAltFramesData.weapons, ...legionnaireData.weapons, ...winterscarData.weapons, ...solsticerainData.weapons, ...ssmrData.weapons]
     },
     mechSystems() {
-      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...dustgraveData.systems]
+      return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...dustgraveData.systems, ...legionnaireData.systems, ...winterscarData.systems, ...solsticerainData..systems, ...ssmrData.systems]
     },
     talents() {
-      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...dustgraveData.talents]
+      return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...dustgraveData.talents, ...legionnaireData.talents, ...solsticerainData.talents, ...ssmrData.talents]
     },
     skills() {
       return [...lancerData.skills]    
@@ -207,7 +208,7 @@ export default {
       return [...ktbData.bonds]
     },
     frames() {
-      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...dustgraveData.frames]
+      return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...dustgraveData.frames, ...LancerEnhancedCombatAltFramesData.frames, ...legionnaireData.frames, ...winterscarData.frames,...solsticerainData.frames, ...ssmrData.frames]
     },
     mechManufacturerIcon() {
       if (this.activeMech.manufacturer)
