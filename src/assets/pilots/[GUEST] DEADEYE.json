@@ -1,0 +1,433 @@
+{
+	"id": "4194ddcd-c3f8-4ec5-a40e-62ac1305cd90",
+	"level": 5,
+	"callsign": "[GUEST] Deadeye",
+	"name": "Rose Canes",
+	"player_name": "",
+	"status": "ACTIVE",
+	"dead": false,
+	"text_appearance": "<p>Rose is in her late 20s, soon to hit the early 30s. Standing at 175cm. She wears an eyepatch on one of her eyes. Due to 'certain' factors', her hair has a white streak an is colored rather oddly, being mostly reddish brown with some odd yellow highlights. She has a rather athletic but slim build, and wears very stand-offish clothes that resemble some sort of... weird punk cowboy, whatever the hell.</p>",
+	"notes": "",
+	"history": "ACCESS DENIED",
+	"quirks": [],
+	"current_hp": 12,
+	"background": "Super Soldier",
+	"resistances": [],
+	"mechs": [
+		{
+			"id": "ce087c85-4a0f-44ee-9674-0a0a702ba1cb",
+			"name": "MISS ME",
+			"notes": "",
+			"gm_note": "",
+			"frame": "mf_oleander",
+			"active": false,
+			"current_structure": 4,
+			"current_move": 5,
+			"boost": 0,
+			"current_hp": 13,
+			"overshield": 0,
+			"current_stress": 4,
+			"current_heat": 0,
+			"current_repairs": 2,
+			"current_overcharge": 0,
+			"current_core_energy": 1,
+			"statuses": [],
+			"conditions": [],
+			"resistances": [],
+			"reactions": [],
+			"burn": 0,
+			"destroyed": false,
+			"defeat": "",
+			"activations": 1,
+			"meltdown_imminent": false,
+			"reactor_destroyed": false,
+			"core_active": false,
+			"cc_ver": "ERR",
+			"lastModified": "Sun Feb 08 2026 20:08:44 GMT+0100 (czas środkowoeuropejski standardowy)",
+			"isDeleted": false,
+			"expireTime": "",
+			"deleteTime": "",
+			"portrait": "",
+			"cloud_portrait": "https://i.imgur.com/lhuD06J.png",
+			"loadouts": [
+				{
+					"id": "d7eb56f7-cf92-49a9-a2a8-dae0a5a9df43",
+					"name": "Primary",
+					"systems": [
+						{
+							"id": "ms_high_stress_mag_clamps",
+							"uses": 0,
+							"destroyed": false,
+							"cascading": false,
+							"flavorName": "",
+							"flavorDescription": "A simple, reliable set of toggleable mag clamps built into a mech’s locomotive system can vastly increase the tactical possibilities open to its pilot. When switched on, these clamps allow a mech to cling to ferrous surfaces, which is especially useful in low- and zero-gravity environments."
+						},
+						{
+							"id": "ms_tracking_bug",
+							"uses": 0,
+							"destroyed": false,
+							"cascading": false,
+							"flavorName": "",
+							"flavorDescription": "Tracking bugs are specialized tracer rounds – essentially, drones too large to be classified as nanites, and far too small to fit the Union-standard parameters of a drone. Fired from dedicated launchers, tracking bugs guide themselves toward their designated target. Following successful penetration of the target, they surreptitiously and continuously feed live data back to their registered user."
+						},
+						{
+							"id": "ms_core_siphon",
+							"uses": 0,
+							"destroyed": false,
+							"cascading": false,
+							"flavorName": "",
+							"flavorDescription": "By shunting excess heat to offensive systems, core siphons allow pilots to overclock the targeting, catalytic, and processing capabilities of their weapons. This comes at a cost, however – reliance on overclocking without sufficient cooling can damage systems not built to handle the influx of power."
+						},
+						{
+							"id": "ms_javelin_rockets",
+							"uses": 0,
+							"destroyed": false,
+							"cascading": false,
+							"flavorName": "",
+							"flavorDescription": "“Pralaya was the name of your mother. She who would see the dawn-at-the-end. Her beauty was terrible, and her wrath, and I see it in all of you. My sons, when you hear the sound of thunder – that is your mother’s voice, and the rain of missiles her gift.” — “Notes for Young John”, Ministrations of the Master Teacher"
+						},
+						{
+							"id": "ms_personalizations",
+							"uses": 0,
+							"destroyed": false,
+							"cascading": false,
+							"flavorName": "",
+							"flavorDescription": ""
+						}
+					],
+					"integratedSystems": [],
+					"mounts": [
+						{
+							"mount_type": "Main",
+							"lock": false,
+							"slots": [
+								{
+									"size": "Main",
+									"weapon": {
+										"id": "mw_sharanga_missiles",
+										"destroyed": false,
+										"cascading": false,
+										"loaded": true,
+										"mod": null,
+										"flavorName": "",
+										"flavorDescription": "“It was a duel. This is why they were made: to duel, and in that combat, to shake the pillars of the universe.” — “Notes for Young John”,  Ministrations of the Master Teacher",
+										"customDamageType": null,
+										"maxUseOverride": 0,
+										"uses": 0,
+										"selectedProfile": 0
+									}
+								}
+							],
+							"extra": [],
+							"bonus_effects": [],
+							"modifiable": true
+						},
+						{
+							"mount_type": "Heavy",
+							"lock": false,
+							"slots": [
+								{
+									"size": "Heavy",
+									"weapon": {
+										"id": "mw_hammer_u_rpl",
+										"destroyed": false,
+										"cascading": false,
+										"loaded": true,
+										"mod": {
+											"id": "wm_stabilizer_mod",
+											"uses": 0,
+											"destroyed": false,
+											"cascading": false
+										},
+										"flavorName": "",
+										"flavorDescription": "The Hammer Universal Rotary Projectile Launcher accepts any projectile or weapons system that fits the IPS-N Universal Cartridge System. Most common is the conventional airburst shell – a fragmentation system designed to operate in all theaters, oxygenated or not – a ferocious weapon in the compact halls, safe rooms, and bolt chambers of capital ships and stations.",
+										"customDamageType": null,
+										"maxUseOverride": 0,
+										"uses": 0,
+										"selectedProfile": 0
+									}
+								}
+							],
+							"extra": [],
+							"bonus_effects": [],
+							"modifiable": true
+						}
+					],
+					"integratedMounts": [],
+					"improved_armament": {
+						"mount_type": "Flex",
+						"lock": false,
+						"slots": [
+							{
+								"size": "Flex",
+								"weapon": null
+							}
+						],
+						"extra": [
+							{
+								"size": "Auxiliary",
+								"weapon": null
+							}
+						],
+						"bonus_effects": [],
+						"modifiable": true
+					},
+					"superheavy_mounting": {
+						"mount_type": "Superheavy",
+						"lock": false,
+						"slots": [
+							{
+								"size": "Superheavy",
+								"weapon": null
+							}
+						],
+						"extra": [],
+						"bonus_effects": [],
+						"modifiable": true
+					},
+					"integratedWeapon": {
+						"mount_type": "Aux",
+						"lock": false,
+						"slots": [
+							{
+								"size": "Auxiliary",
+								"weapon": null
+							}
+						],
+						"extra": [],
+						"bonus_effects": [],
+						"modifiable": true
+					},
+					"extraMounts": [],
+					"extraIntegratedMounts": []
+				}
+			],
+			"active_loadout_index": 0
+		}
+	],
+	"cc_ver": "",
+	"special_equipment": {
+		"PilotGear": [],
+		"Frames": [],
+		"MechWeapons": [],
+		"WeaponMods": [],
+		"MechSystems": [],
+		"SystemMods": []
+	},
+	"combat_history": {
+		"moves": 0,
+		"kills": 0,
+		"damage": 0,
+		"hp_damage": 0,
+		"structure_damage": 0,
+		"overshield": 0,
+		"heat_damage": 0,
+		"reactor_damage": 0,
+		"overcharge_uses": 0,
+		"core_uses": 0
+	},
+	"state": {
+		"active_mech_id": "",
+		"remote_mech_id": "",
+		"stage": "Narrative",
+		"turn": 1,
+		"actions": 2,
+		"braced": false,
+		"overcharged": false,
+		"prepare": false,
+		"bracedCooldown": false,
+		"redundant": false,
+		"stats": {
+			"moves": 0,
+			"kills": 0,
+			"damage": 0,
+			"hp_damage": 0,
+			"structure_damage": 0,
+			"overshield": 0,
+			"heat_damage": 0,
+			"reactor_damage": 0,
+			"overcharge_uses": 0,
+			"core_uses": 0
+		},
+		"deployed": []
+	},
+	"lastModified": "Sun Feb 08 2026 19:59:58 GMT+0100 (czas środkowoeuropejski standardowy)",
+	"isDeleted": false,
+	"expireTime": "",
+	"deleteTime": "",
+	"lastUpdate_cloud": "",
+	"lastSync": "",
+	"shareCode": "",
+	"shareCodeExpiry": "",
+	"isRemoteResource": false,
+	"skills": [
+		{
+			"id": "sk_assault",
+			"rank": 2
+		},
+		{
+			"id": "sk_charm",
+			"rank": 2
+		},
+		{
+			"id": "sk_show_off",
+			"rank": 2
+		},
+		{
+			"id": "sk_spot",
+			"rank": 3
+		}
+	],
+	"talents": [
+		{
+			"id": "mf_orator",
+			"rank": 3
+		},
+		{
+			"id": "t_infiltrator",
+			"rank": 3
+		},
+		{
+			"id": "t_stormbringer",
+			"rank": 2
+		}
+	],
+	"mechSkills": [
+		0,
+		2,
+		2,
+		3
+	],
+	"counter_data": [
+		{
+			"id": "ctr_voice_of_reason",
+			"name": "Orator Die",
+			"default_value": 1,
+			"min": 1,
+			"max": 3
+		}
+	],
+	"custom_counters": [],
+	"core_bonuses": [
+		"cb_neurolink_targeting"
+	],
+	"licenses": [
+		{
+			"id": "mf_deaths_head",
+			"rank": 2
+		},
+		{
+			"id": "mf_monarch",
+			"rank": 2
+		},
+		{
+			"id": "mf_caliban",
+			"rank": 1
+		}
+	],
+	"reserves": [],
+	"orgs": [],
+	"bondId": "",
+	"xp": 0,
+	"stress": 0,
+	"isBroken": false,
+	"burdens": [],
+	"bondPowers": [],
+	"powerSelections": 0,
+	"maxStress": 8,
+	"bondAnswers": [
+		"",
+		""
+	],
+	"minorIdeal": "",
+	"clocks": [],
+	"group": "",
+	"sort_index": -1,
+	"portrait": "",
+	"cloud_portrait": "https://i.imgur.com/rarNQsQ.png",
+	"loadout": {
+		"id": "b2dd86e0-dc07-4636-b510-072e7d9feb07",
+		"name": "Primary",
+		"armor": [
+			{
+				"id": "pg_assault_hardsuit",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "These hardsuits, common among military units, feature heavier plating than light hardsuits but more mobility than heavy hardsuits. They are powered, augmenting the user’s strength, and typically feature an onboard computer, sensor suite, integrated air, burst EVA system, and waste recycling systems.",
+				"customDamageType": null
+			}
+		],
+		"weapons": [
+			{
+				"id": "pg_archaic_ranged",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "These weapons are pre-modern devices like muskets and bows, all of which are still used in some societies.",
+				"customDamageType": null
+			},
+			{
+				"id": "pg_heavy_signature",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "Heavy signature weapons are missile tubes, heavy lasers, light machine gun, or exotic rifles.",
+				"customDamageType": null
+			}
+		],
+		"gear": [
+			{
+				"id": "pg_wilderness_survival_kit",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "This kit contains many essentials for surviving in hostile environments: a rebreather, water filters, hardsuit patches, backup thermals, a bivouac kit, and so on.",
+				"customDamageType": null
+			},
+			{
+				"id": "pg_ssc_sylph_undersuit",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "Discovered on Acrimea IV, a biome cultivar world controlled by Smith-Shimano Corpro (SSC), the sylph is an organic lifeform that can seemingly survive in nearly any environment. Using breeding-analogous methods defined by established bioengineering doctrines, SSC developed the sylph undersuit – sterile, living sylphs grown as envelopes and fitted to their owners. The sylph bonds to its wearer, forming a symbiotic relationship: the sylph is sustained by the host’s waste products, in return protecting the host from a range of hostile environmental factors.<br>These semi-biological, skin-tight undersuits can be worn for extended periods. They are translucent, semi-liquid, and able to be stored when not in use, conforming to whatever container they are placed in. They clean the host’s body, aid natural healing processes, and eliminate waste. As desired, segments can become opaque, change color, or take on a new texture. Sylph undersuits can cover the host’s head, sealing against vacuum, providing protection against radiation, and filtering air or liquids, even providing the ability to breathe water for a limited time.",
+				"customDamageType": null
+			},
+			{
+				"id": "pg_flexsuit",
+				"destroyed": false,
+				"uses": 0,
+				"cascading": false,
+				"flavorName": "",
+				"flavorDescription": "A strong base-layer suit that recycles water, generates nutrients, and adapts very rapidly to hostile environs, maintaining a stable condition and extending survivability. Flexsuit wearers can go for roughly a week without eating or drink thanks to the ambrosia paste generated by their suit before its systems are depleted; however, they don’t prevent feelings of hunger. Removing the suit for a day or two is enough to replenish its reserves. Flexsuits also maintain a steady temperature within acceptable parameters.",
+				"customDamageType": null
+			}
+		],
+		"extendedWeapons": [
+			null
+		],
+		"extendedGear": [
+			null,
+			null
+		]
+	},
+	"brews": [
+		{
+			"LcpId": "OMskwK4GxkhZ2GEBJnIoyukHgMs=",
+			"LcpName": "Lancer Enhanced Combat Alt Frames",
+			"LcpVersion": "1.1",
+			"Website": "https://interpoint-station.itch.io/lancer-enhanced-combat"
+		},
+		{
+			"LcpId": "eK3m5/lSUgllpz12ZjWcfL/TC2c=",
+			"LcpName": "Lancer Long Rim Data",
+			"LcpVersion": "1.2.1",
+			"Website": "https://massif-press.itch.io/the-long-rim"
+		}
+	]
+}
