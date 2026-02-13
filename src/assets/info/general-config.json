@@ -3,7 +3,7 @@
   "planetPath": "/planet.webm",
   "animate": true,
   "defaultTitle": "ATLAS CORPORATION MERCENARY NETWORK |",
-  "icon": "/faction-logos/atlas_site.png",
+  "icon": "/icons/site.svg",
   "header": {
     "planet": "ABOARD THE RLC NAUTILUS",
     "year": "504 CE",
