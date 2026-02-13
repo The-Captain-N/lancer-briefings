@@ -184,36 +184,36 @@ export default {
   },
 	computed: {
 		pilotPortrait() {
-		  return `/pilots/${this.pilot.callsign.toUpperCase()}.webp`
+		return `/pilots/${this.pilot.callsign.toUpperCase()}.webp`
 		},
 		mechPortrait() {
-		  return `/mechs/${this.pilot.callsign.toUpperCase()}.webp`
+		return `/mechs/${this.pilot.callsign.toUpperCase()}.webp`
 		},
 		pilotGear() {
-		  return [...lancerData.pilot_gear, ...dustgraveData.pilot_gear, ...legionnaireData.pilot_gear, ...ssmrData.pilot_gear]
+		return [...lancerData.pilot_gear]
 		},
 		mechWeapons() {
-		  return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...dustgraveData.weapons, ...LancerEnhancedCombatAltFramesData.weapons, ...legionnaireData.weapons, ...winterscarData.weapons, ...solsticerainData.weapons, ...ssmrData.weapons]
+		return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons]
 		},
 		mechSystems() {
-		  return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems, ...dustgraveData.systems, ...legionnaireData.systems, ...winterscarData.systems, ...solsticerainData..systems, ...ssmrData.systems]
+		return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems]
 		},
 		talents() {
-		  return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents, ...dustgraveData.talents, ...legionnaireData.talents, ...solsticerainData.talents, ...ssmrData.talents]
+		return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents]
 		},
 		skills() {
-		  return [...lancerData.skills]    
+		return [...lancerData.skills]    
 		},
 		bonds() {
-		  return [...ktbData.bonds]
+		return [...ktbData.bonds]
 		},
 		frames() {
-		  return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames, ...dustgraveData.frames, ...LancerEnhancedCombatAltFramesData.frames, ...legionnaireData.frames, ...winterscarData.frames,...solsticerainData.frames, ...ssmrData.frames]
+		return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames]
 		},
 		mechManufacturerIcon() {
-		  if (this.activeMech.manufacturer)
+		if (this.activeMech.manufacturer)
 			return `/faction-logos/${this.activeMech.manufacturer.toLowerCase()}.svg`
-		  return ''
+		return ''
 		},
     pilotCode() {
       const identNameParts = this.pilot.name.split(' ')
