@@ -182,21 +182,39 @@ export default {
       bond: {},
     }
   },
-  computed: {
-    pilotPortrait() {
-      return `/pilots/${this.pilot.callsign.toUpperCase()}.webp`
-    },
-    mechPortrait() {
-      return `/mechs/${this.pilot.callsign.toUpperCase()}.webp`
-    },
-    pilotGear() {
-      return [...lancerData.pilot_gear, ...dustgraveData.pilot_gear, ...legionnaireData.pilot_gear, ...ssmrData.pilot_gear]
-    },
-    mechManufacturerIcon() {
-      if (this.activeMech.manufacturer)
-        return `/faction-logos/${this.activeMech.manufacturer.toLowerCase()}.svg`
-      return ''
-    },
+	computed: {
+		pilotPortrait() {
+		  return `/pilots/${this.pilot.callsign.toUpperCase()}.webp`
+		},
+		mechPortrait() {
+		  return `/mechs/${this.pilot.callsign.toUpperCase()}.webp`
+		},
+		pilotGear() {
+		  return [...lancerData.pilot_gear]
+		},
+		mechWeapons() {
+		  return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons]
+		},
+		mechSystems() {
+		  return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems]
+		},
+		talents() {
+		  return [...lancerData.talents, ...ktbData.talents, ...nrfawData.talents, ...longrimData.talents]
+		},
+		skills() {
+		  return [...lancerData.skills]    
+		},
+		bonds() {
+		  return [...ktbData.bonds]
+		},
+		frames() {
+		  return [...lancerData.frames, ...ktbData.frames, ...nrfawData.frames, ...longrimData.frames]
+		},
+		mechManufacturerIcon() {
+		  if (this.activeMech.manufacturer)
+			return `/faction-logos/${this.activeMech.manufacturer.toLowerCase()}.svg`
+		  return ''
+		},
     pilotCode() {
       const identNameParts = this.pilot.name.split(' ')
       const identFirstName = identNameParts[0]
