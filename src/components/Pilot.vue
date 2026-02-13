@@ -208,7 +208,7 @@ export default {
 		return [...ktbData.bonds]
 		},
 		frames() {
-		return [...lancerData.frames]
+		return [...lancerData.frames, ...nrfawData.frames]
 		},
 		mechManufacturerIcon() {
 		if (this.activeMech.manufacturer)
