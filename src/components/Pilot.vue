@@ -208,7 +208,7 @@ export default {
 		return [...ktbData.bonds]
 		},
 		frames() {
-		return [...lancerData.frames, ...nrfawData.frames, ...winterscarData.frames, ...LancerEnhancedCombatAltFramesData.frames]
+		return [...lancerData.frames, ...nrfawData.frames, ...winterscarData.frames, ...LancerEnhancedCombatAltFramesData.frames, ...dustgraveData.frames]
 		},
 		mechManufacturerIcon() {
 		if (this.activeMech.manufacturer)
