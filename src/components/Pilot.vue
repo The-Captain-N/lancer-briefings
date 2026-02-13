@@ -193,7 +193,7 @@ export default {
 		return [...lancerData.pilot_gear, ...dustgraveData.pilot_gear, ...legionnaireData.pilot_gear, ...ssmrData.pilot_gear]
 		},
 		mechWeapons() {
-		return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons]
+		return [...lancerData.weapons, ...ktbData.weapons, ...nrfawData.weapons, ...longrimData.weapons, ...dustgraveData.weapons, ...LancerEnhancedCombatAltFramesData.weapons, ...legionnaireData.weapons, ...winterscarData.weapons, ...solsticerainData.weapons, ...ssmrData.weapons]
 		},
 		mechSystems() {
 		return [...lancerData.systems, ...ktbData.systems, ...nrfawData.systems, ...longrimData.systems]
