@@ -103,7 +103,7 @@
 		  and the information herein must be transmitted on request under
 		  NDL-C-DISCORDANT-BREATH encryption protocols. This record must be updated every five (5)
           years of objective time to retain frame licensing rights. Far-field operatives that
-          anticipate deployments lasting longer than five yearss that have not been issued
+          anticipate deployments lasting longer than five years that have not been issued
           a man-portable Atlasnet Hook should apply for the RM-11-B IDENT Supplemental (b) Extension. Contact
           your local Atlas Corporation representative for any other matters regarding this
           record.  V-CDL//M-265-114-831 (A) </span></div>
